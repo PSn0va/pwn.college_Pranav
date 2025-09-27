@@ -4,7 +4,9 @@ Today I was working in the terminal and I learnt a bit more about how Linux comm
 After that, I learnt about how Linux is case sensitive – which means if you type a command like hello, it has to be exactly like that, and not like HELLO or Hello or anything else. That was a bit confusing at first coz I thought commands might work regardless of letter casing, but I guess that's how Linux works.
 I also found out that once you run a command and it finishes, the terminal just shows the prompt again, waiting for the next command. It’s kinda cool to see how the shell responds.
 Lastly, I tried running the hello command like the task said, and that gave me the flag, so mission success! 🎉
+
 **flag:** ` pwn.college{8cf7DYezGhsAFacVzRTR4inqndG.QX3YjM1wSM2EzNzEzW}`
+
 **commands used**
 ```
 
@@ -23,7 +25,9 @@ hello hackers
 And it worked! Got the flag after that.
 One thing I almost messed up was accidentally using echo again instead of hello. Easy to mix up since we just used echo before. But I caught it after re-reading the instructions more carefuly.
 Anyway, now I get how command + arguments work in the shell, which I think will help a lot as I keep learning this stuff.
+
 **flag:** `pwn.college{YQl13Tbxo8qLDrL2cDbMj890N38.QX4YjM1wSM2EzNzEzW}`
+
 **commands used**
 ```
 hacker@dojo:~$ echo Hello Hackers!
@@ -39,6 +43,7 @@ I learned that you can just press the up arrow key to scroll back through the co
 For this challenge, I didn’t even have to type anything — I just opened the terminal and kept hitting the up arrow, and boom! One of the previous commands had the flag in it. Pretty sneaky but clever lol.
 I almost missed it at first because I thought I had to type a command again, but then I remembered the hint said the flag was in the history. So yeah, definitely a cool trick I’ll use more from now on.
 Overall, this taught me that bash saves everything I type, which could also be useful for going back and checking what I did wrong or right.
+
 **flag:** `pwn.college{Moz99MhPtYk5r9D9otHa_5hHrZs.0lNzEzNxwSM2EzNzEzW}`
 
 
