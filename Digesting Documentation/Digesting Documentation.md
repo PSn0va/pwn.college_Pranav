@@ -64,3 +64,26 @@ man gtjtbjpxch
 /challenge/challenge --gtjtbj 472
 ```
 
+## Helpful Programs
+In this challenge the goal was to read the program's built‑in help and use the documented options to reveal the secret. I ran /challenge/challenge --help to view the options, discovered -p/--print-value and -g/--give-the-flag, used /challenge/challenge --print-value to get the secret 467, and then ran /challenge/challenge --give-the-flag 467 to obtain the flag.
+
+**Flag:** `pwn.college{4as-Wqm6kb7UJ2UduAeNsBUEqHi.QX3IDO0wSM2EzNzEzW}`
+
+**commands used**
+```
+/challenge/challenge --help
+/challenge/challenge --p
+/challenge/challenge --g 467
+```
+
+## Help for Builtins
+In this challenge the goal was to read the shell builtin help to find the secret value and pass it to the builtin challenge. I ran help challenge to view the builtin's documentation, discovered the --secret option and that the required value is Eq38gMYz, and then ran challenge --secret Eq38gMYz to obtain the flag.
+
+**Flag:** `pwn.college{Eq38gMYznsShWRRp86hsNUc18D9.QX0ETO0wSM2EzNzEzW}`
+
+**commands used**
+```
+help challenge
+challenge --secret Eq38gMYz
+```
+
