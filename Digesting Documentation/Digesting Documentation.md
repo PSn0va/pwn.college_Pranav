@@ -1,4 +1,4 @@
-# Digesting Documentation
+# 4th Module - Digesting Documentation
 ## Learning from Documentaion
 In this challenge the goal was to read the (pretend) documentation and invoke /challenge/challenge with the correct argument. The documentation explicitly said to pass --giveflag, so I ran /challenge/challenge --giveflag
 
