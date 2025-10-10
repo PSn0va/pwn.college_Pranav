@@ -1,4 +1,4 @@
-# 4th Module - Untangling Users
+# 10th Module - Untangling Users
 ## Becoming Root with su
 In this challenge the goal was to become root using su so I could read the privileged flag. I ran su and supplied the root password hack-the-planet to get a root shell. I listed the directory and inspected files; myflag contained a decoy value, while the real flag was located in the file not-the-flag. I read the correct file with cat not-the-flag, which printed the flag.
 
