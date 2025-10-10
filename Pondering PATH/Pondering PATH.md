@@ -54,10 +54,10 @@ In this challenge the goal was to prevent /challenge/run from removing /flag by 
 
 **commands used**
 ```
+which rm
 which cat
 nano /home/hacker/scripts/rm
 chmod a+x /home/hacker/scripts/rm
 PATH="/home/acker/scripts:/run/dojo/bin"
 /challenge/bin
 ```
-
