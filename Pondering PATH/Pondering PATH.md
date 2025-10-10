@@ -1,4 +1,4 @@
-# 13th Module - Pondering PATH
+# 14th Module - Pondering PATH
 ## The Path Variable
 In this challenge the goal was to prevent /challenge/run from finding the rm command so it could not delete /flag. I cleared the PATH used by PATH=" " and then executed /challenge/run, the flag was not removed, and the program returned the flag.
 
